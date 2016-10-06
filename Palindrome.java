@@ -8,6 +8,7 @@ public class Palindrome {
 		System.out.println(value + " is" + (isPalindrome(args[0]) ? "" : " not") + " a palindrome");
 	}
 	
+	@SuppressWarnings("unchecked")
 	public static boolean isPalindrome(String word) {
 		Stack<Character> forward = new Stack<>();
 		Stack<Character> backword = new Stack<>();
