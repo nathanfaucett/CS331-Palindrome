@@ -5,7 +5,7 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		String value = args[0];
-		System.out.println(value + " is" + (isPalindrome(args[0]) ? "" : " not") + " a palindrome");
+		System.out.println(value + " is" + (isPalindrome(value) ? "" : " not") + " a palindrome");
 	}
 	
 	@SuppressWarnings("unchecked")
